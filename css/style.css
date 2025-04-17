@@ -3,7 +3,7 @@
 /**********************************/
 body {
     color: #666666;
-    background: #F6D155;
+    background:  #012347;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -15,7 +15,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #FF6F61;
+    color: #ffffff;
     outline: none;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #F6D155;
+    background:  #012347;
 }
 
 .wrapper .sidebar-header,
@@ -76,7 +76,7 @@ a:focus {
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
-    color: #FF6F61;
+    color: #0056b3;
     float: right;
     padding-top: 5px;
     transition: all .3s;
@@ -84,7 +84,7 @@ a:focus {
 
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link.active {
-    color: #FF6F61;
+    color: #0056b3;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover i,
@@ -112,7 +112,7 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        background: #F6D155;
+        background:  #012347;
         z-index: 1;
     }
     
@@ -208,7 +208,7 @@ a:focus {
         text-align: center;
         font-size: 18px;
         color: #222222;
-        background: #FF6F61;
+        background: #0056b3;
     }
     
     .sidebar .sidebar-footer a:last-child {
@@ -216,12 +216,12 @@ a:focus {
     }
     
     .sidebar .sidebar-footer a:hover {
-        color: #FF6F61;
+        color: #0056b3;
         background: #ffffff;
     }
     
     .sidebar:hover .sidebar-footer {
-        display: block;
+        display: #ffffff;
     }
 }
 
@@ -281,11 +281,11 @@ a:focus {
 }
 
 .back-to-top i {
-    color: #222222;
+    color: black;
 }
 
 .back-to-top i:hover {
-    color: #FF6F61;
+    color: #ffffff;
 }
 
 .back-to-top {
@@ -320,7 +320,7 @@ a:focus {
 }
 
 .header p {
-    color: #FF6F61;
+    color: #0056b3;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -351,22 +351,22 @@ a:focus {
 
 .large-btn .content-inner {
     font-size: 0;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid white;
 }
 
 .large-btn .btn {
     position: relative;
     width: 50%;
     padding: 15px 0;
-    color: #FF6F61;
+    color: #0056b3;
     font-size: 20px;
-    background: #222222;
+    background: black;
     border-radius: 0;
 }
 
 .large-btn .btn:last-child {
     color: #222222;
-    background: #FF6F61;
+    background: #0056b3;
 }
 
 .large-btn .btn i {
@@ -415,7 +415,7 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: #FF6F61;
+    background: #0056b3;
 }
 
 
@@ -426,7 +426,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid  #012347;
 }
 
 
@@ -444,13 +444,13 @@ a:focus {
 .about .btn {
     border-radius: 0;
     color: #222222;
-    background: #FF6F61;
+    background: #0056b3;
     transition: all .3s;
 }
 
 .about .btn:hover {
-    color: #FF6F61;
-    background: #222222;
+    color: #ffffff;
+    /* background: #ffffff; */
 }
 
 .about .skills {
@@ -474,14 +474,14 @@ a:focus {
 
 .about .progress {
     height: 5px;
-    border: 1px solid #FF6F61;
+    border: 1px solid #0056b3;
     border-radius: 0;
     background: #ffffff;
 }
 
 .about .progress .progress-bar {
     width: 1px;
-    background: #FF6F61;
+    background: #0056b3;
     border-radius: 0;
     transition: 1s;
 }
@@ -494,15 +494,15 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid  #012347;
 }
 
 .education .edu-col {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
-    border-left: 1px solid #FF6F61;
-    border-bottom: 1px solid #FF6F61;
+    border-left: 1px solid #0056b3;
+    border-bottom: 1px solid #0056b3;
 }
 
 .education .col-md-6:first-child .edu-col {
@@ -539,14 +539,14 @@ a:focus {
     content: "";
     width: 11px;
     height: 11px;
-    background: #FF6F61;
+    background: #0056b3;
     top: 5px;
     left: -26px;
     border-radius: 5px;
 }
 
 .education .edu-col span i {
-    color: #FF6F61;
+    color: #0056b3;
 }
 
 .education .edu-col h3 {
@@ -567,15 +567,15 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid  #012347;
 }
 
 .experience .exp-col {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
-    border-left: 1px solid #FF6F61;
-    border-bottom: 1px solid #FF6F61;
+    border-left: 1px solid #0056b3;
+    border-bottom: 1px solid #0056b3;
 }
 
 .experience .col-md-6:first-child .exp-col {
@@ -612,14 +612,14 @@ a:focus {
     content: "";
     width: 11px;
     height: 11px;
-    background: #FF6F61;
+    background: #0056b3;
     top: 5px;
     left: -26px;
     border-radius: 5px;
 }
 
 .experience .exp-col span i {
-    color: #FF6F61;
+    color: #0056b3;
 }
 
 .experience .exp-col h3 {
@@ -654,7 +654,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid  #012347;
 }
 
 .service .srv-col {
@@ -665,7 +665,7 @@ a:focus {
 
 .service .srv-col i {
     font-size: 30px;
-    color: #FF6F61;
+    color: #0056b3;
     margin-bottom: 15px;
 }
 
@@ -701,7 +701,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid  #012347;
 }
 
 .portfolio #portfolio-flters {
@@ -721,15 +721,15 @@ a:focus {
     font-size: 13px;
     line-height: 15px;
     text-transform: uppercase;
-    border: 1px solid #FF6F61;
+    border: 1px solid #0056b3;
     background: #ffffff;
     transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #FF6F61;
-    color: #222222;
+    background: #ffffff;
+    /* color: #222222; */
 }
 
 .portfolio .portfolio-item {
@@ -768,7 +768,7 @@ a:focus {
     text-align: center;
     width: 45px;
     height: 35px;
-    background: #FF6F61;
+    background: #0056b3;
     transition: 0.2s linear;
 }
 
@@ -781,12 +781,12 @@ a:focus {
 
 .portfolio .portfolio-item figure .link-preview:hover,
 .portfolio .portfolio-item figure .link-details:hover {
-    background: #222222;
+    background: #ffffff;
 }
 
 .portfolio .portfolio-item figure .link-preview:hover i,
 .portfolio .portfolio-item figure .link-details:hover i {
-    color: #FF6F61;
+    color: #ffffff;
 }
 
 .portfolio .portfolio-item figure .link-preview {
@@ -848,7 +848,7 @@ a:focus {
 .review {
     position: relative;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid  #012347;
 }
 
 .review .content-inner {
@@ -891,7 +891,7 @@ a:focus {
 }
 
 .review .review-text .ratting i {
-    color: #FF6F61;
+    color: #0056b3;
     font-size: 14px;
 }
 
@@ -910,7 +910,7 @@ a:focus {
     z-index: 1;
     opacity: 0;
     transition: .5s;
-    background: rgba(255, 111, 97, .7);
+    background: #0056b3;
 }
 
 .review-slider .slick-prev {
@@ -935,14 +935,14 @@ a:focus {
 .review-slider .slick-prev:focus,
 .review-slider .slick-next:hover,
 .review-slider .slick-next:focus {
-    background: rgba(0, 0, 0, .7);
+    background: white;
 }
 
 .review-slider .slick-prev:hover::before,
 .review-slider .slick-prev:focus::before,
 .review-slider .slick-next:hover::before,
 .review-slider .slick-next:focus::before {
-    color: #FF6F61;
+    color: #0056b3;
 }
 
 .review-slider .slick-prev::before,
@@ -971,7 +971,7 @@ a:focus {
 }
 
 .review-slider .slick-dots li.slick-active button:before {
-    color: #FF6F61;
+    color: #0056b3;
 }
 
 .review-slider.slick-slider {
@@ -1003,7 +1003,7 @@ a:focus {
 
 .contact .contact-info p i {
     width: 25px;
-    color: #FF6F61;
+    color: #0056b3;
 }
 
 .contact .contact-info p a {
@@ -1011,7 +1011,7 @@ a:focus {
 }
 
 .contact .contact-info p a:hover {
-    color: #FF6F61;
+    color: #0056b3;
     text-decoration: none;
 }
 
@@ -1024,7 +1024,7 @@ a:focus {
     height: 35px;
     padding: 5px 0;
     color: #222222;
-    background: #FF6F61;
+    background: #0056b3;
     border-radius: 0;
     margin-top: 15px;
     margin-right: 15px;
@@ -1036,8 +1036,8 @@ a:focus {
 }
 
 .contact .social a:hover {
-    color: #FF6F61;
-    background: #222222;
+    color: #0056b3;
+    background: white;
 }
 
 .contact .form {
@@ -1052,20 +1052,20 @@ a:focus {
 
 .contact .form .form-control:focus {
     box-shadow: none;
-    border-color: #FF6F61;
+    border-color: #0056b3;
 }
 
 .contact .form .btn {
     color: #222222;
-    background: #FF6F61;
+    background: #0056b3;
     border-radius: 0;
     transition: all .3s;
 }
 
-.contact .form .btn:hover {
-    color: #FF6F61;
-    background: #222222;
-}
+/* .contact .form .btn:hover {
+    color: #007bff; */
+    /* background: #222222; */
+/* } */
 
 
 /**********************************/
@@ -1075,7 +1075,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 30px 30px 0 30px;
-    background: #F6D155;
+    background:  #012347;
 }
 
 .footer .col-md-6:last-child {
@@ -1090,16 +1090,17 @@ a:focus {
 }
 
 .footer p {
-    color: #222222;
+    color:white;
     margin: 0;
 }
 
 .footer a {
-    color: #FF6F61;
+    color: #0056b3;
     font-weight: 600;
 }
 
 .footer a:hover {
-    color: #222222;
+    color: aqua;
 }
+
 
