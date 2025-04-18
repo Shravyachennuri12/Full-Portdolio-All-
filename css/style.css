@@ -448,7 +448,7 @@ a:focus {
 .about .btn {
     border-radius: 0;
     color: #222222;
-    background: #eee;
+    background: white;
     transition: all .3s;
     transition: 0.3s ease;
     border: solid 1px black ;
