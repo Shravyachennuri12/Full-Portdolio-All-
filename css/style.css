@@ -85,6 +85,7 @@ a:focus {
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link.active {
     color: #0056b3;
+
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover i,
@@ -281,7 +282,7 @@ a:focus {
 }
 
 .back-to-top i {
-    color: black;
+    color: white;
 }
 
 .back-to-top i:hover {
@@ -358,14 +359,14 @@ a:focus {
     position: relative;
     width: 50%;
     padding: 15px 0;
-    color: #0056b3;
+    color: white;
     font-size: 20px;
     background: black;
     border-radius: 0;
 }
 
 .large-btn .btn:last-child {
-    color: #222222;
+    color: white;
     background: #0056b3;
 }
 
@@ -728,7 +729,7 @@ a:focus {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #ffffff;
+    background: #6d8baa;
     /* color: #222222; */
 }
 
@@ -1011,7 +1012,7 @@ a:focus {
 }
 
 .contact .contact-info p a:hover {
-    color: #0056b3;
+    color: #324d96;
     text-decoration: none;
 }
 
@@ -1024,11 +1025,12 @@ a:focus {
     height: 35px;
     padding: 5px 0;
     color: #222222;
-    background: #0056b3;
+    background: #3a86d7;
     border-radius: 0;
     margin-top: 15px;
     margin-right: 15px;
     transition: all .3s;
+    border: 1px solid #1a50b4;
 }
 
 .contact .social a:last-child {
@@ -1036,7 +1038,7 @@ a:focus {
 }
 
 .contact .social a:hover {
-    color: #0056b3;
+    color: #39628e;
     background: white;
 }
 
@@ -1057,15 +1059,16 @@ a:focus {
 
 .contact .form .btn {
     color: #222222;
-    background: #0056b3;
+    background: #3a86d7;
     border-radius: 0;
     transition: all .3s;
 }
 
-/* .contact .form .btn:hover {
-    color: #007bff; */
-    /* background: #222222; */
-/* } */
+.contact .form .btn:hover {
+    color: #3a86d7;
+    background: white;
+    border-color: #0056b3;
+ }
 
 
 /**********************************/
@@ -1097,10 +1100,11 @@ a:focus {
 .footer a {
     color: #0056b3;
     font-weight: 600;
+    border: 1px solid #1a50b4;
 }
 
 .footer a:hover {
-    color: aqua;
+    color: white;
 }
 
 
