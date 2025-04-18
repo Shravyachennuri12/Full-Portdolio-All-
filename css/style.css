@@ -76,7 +76,7 @@ a:focus {
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
-    color: #0056b3;
+    color: #ADB2D4;
     float: right;
     padding-top: 5px;
     transition: all .3s;
@@ -84,7 +84,8 @@ a:focus {
 
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link.active {
-    color: #0056b3;
+    color: #eee;
+    transform: translateY(-2px);
 
 }
 
@@ -209,7 +210,8 @@ a:focus {
         text-align: center;
         font-size: 18px;
         color: #222222;
-        background: #0056b3;
+        background: white;
+        transition: 0.3s ease;
     }
     
     .sidebar .sidebar-footer a:last-child {
@@ -217,8 +219,9 @@ a:focus {
     }
     
     .sidebar .sidebar-footer a:hover {
-        color: #0056b3;
-        background: #ffffff;
+        color: black;
+        background-color: #eee;
+        transform: translateY(-2px);
     }
     
     .sidebar:hover .sidebar-footer {
@@ -729,8 +732,8 @@ a:focus {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #6d8baa;
-    /* color: #222222; */
+    background: #0056b3;
+    color: white;
 }
 
 .portfolio .portfolio-item {
@@ -1025,12 +1028,13 @@ a:focus {
     height: 35px;
     padding: 5px 0;
     color: #222222;
-    background: #3a86d7;
+    background: white;
     border-radius: 0;
     margin-top: 15px;
     margin-right: 15px;
     transition: all .3s;
-    border: 1px solid #1a50b4;
+    border: 1px solid black;
+    transition: 0.3s ease;
 }
 
 .contact .social a:last-child {
@@ -1038,8 +1042,9 @@ a:focus {
 }
 
 .contact .social a:hover {
-    color: #39628e;
-    background: white;
+    color: black;
+    background-color: #eee;
+    transform: translateY(-2px);
 }
 
 .contact .form {
@@ -1059,15 +1064,17 @@ a:focus {
 
 .contact .form .btn {
     color: #222222;
-    background: #3a86d7;
+    background: white;
     border-radius: 0;
     transition: all .3s;
+    border-color: black;
+    transition: 0.3s ease;
 }
 
 .contact .form .btn:hover {
-    color: #3a86d7;
-    background: white;
-    border-color: #0056b3;
+    color: black;
+    background-color: #eee;
+    transform: translateY(-2px);
  }
 
 
